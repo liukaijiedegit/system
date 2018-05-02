@@ -1,0 +1,822 @@
+* {
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	border: none;
+	list-style: none;
+}
+
+li {
+	list-style: none
+}
+
+a {
+	text-decoration: none;
+}
+
+input {
+	outline: none;
+}
+
+
+/*login*/
+
+.loginBody {
+	font-family: "微软雅黑",arial;
+	background: url(../../src/assets/login.jpg) repeat-x center top;
+	background-size: cover;
+}
+
+.wraper {
+	max-width: 1200px;
+	min-width: 800px;
+	margin: 0 auto;
+	top: 0;
+}
+
+.loginTitle {
+	color: #fff;
+	height: 216px;
+	margin: 0 auto;
+	font-size: 21px;
+	overflow: hidden;
+	text-align: center;
+	text-indent: -42px;
+	line-height: 202px;
+	background: url(../../src/assets/titleBg.png) no-repeat bottom center;
+	background-size: contain;
+}
+
+.loginBox {
+	width: 83%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.loginBg {
+	width: 52%;
+	padding-top: 42px;
+}
+
+.loginBg img {
+	width: 100%;
+}
+
+.loginMain {
+	float: right;
+	width: 32.2%;
+	margin: 100px 65px 0 0;
+	background: rgba(72, 83, 123, 0.6);
+	padding: 40px 0px 70px;
+}
+
+.loginForm {
+	width: 78%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.logo {
+	width: 45.2%;
+	margin: 0 auto;
+	overflow: hidden;
+	padding-bottom: 11%;
+}
+
+.logo img {
+	width: 100%;
+}
+
+.inputBg {
+	overflow: hidden;
+	background: #fff;
+	border-radius: 3px;
+	margin-bottom: 5%;
+	padding: 9px 0px 9px 13px;
+}
+
+.inputBg span {
+	float: left;
+	width: 16px;
+	height: 17px;
+	overflow: hidden;
+}
+
+.inputBg input {
+	-webkit-box-shadow: 0 0 0px 1000px white inset;
+	color: #777;
+	float: left;
+	font-size: 14px;
+	max-width: 100px;
+	margin-left: 10px;
+	line-height: 17px;
+}
+
+.verificationCode {
+	overflow: hidden;
+}
+
+.verificationCode input {
+	color: #777;
+	float: left;
+	width: 50%;
+	height: 35px;
+	font-size: 14px;
+	line-height: 35px;
+	text-indent: 13px;
+	border-radius: 3px;
+	/*margin-right: 4.3%;*/
+}
+
+.code {
+	margin-left: 24px;
+	float: left;
+	width: 36.3%;
+	height: 35px;
+	overflow: hidden;
+	/*margin-right: 4.3%;*/
+	background: #1c1e35;
+}
+
+.J_codeimg {
+	color: #f0f0f0;
+	width: 100%;
+	height: 35px;
+	padding-left: 12%;
+	font-size: 19px;
+}
+
+.refresh {
+	float: left;
+	width: 16.8%;
+	height: 25px;
+	display: block;
+	cursor: pointer;
+	overflow: hidden;
+	text-align: center;
+	background: #1c1e35;
+	padding: 2% 0px;
+}
+
+.refresh img {
+	width: 60%;
+}
+
+.errorInfo {
+	color: #ebeffd;
+	height: 38px;
+	font-size: 14px;
+	overflow: hidden;
+	line-height: 38px;
+}
+
+.errorInfo span {
+	float: left;
+	color: #f00;
+	height: 38px;
+	overflow: hidden;
+	line-height: 44px;
+	padding: 0px 10px;
+}
+
+.submit {
+	overflow: hidden;
+}
+
+.submit input {
+	color: #fff;
+	width: 100%;
+	height: 36px;
+	cursor: pointer;
+	font-size: 16px;
+	line-height: 36px;
+	border-radius: 3px;
+	text-align: center;
+	background: #57e180;
+}
+
+.Copyright {
+	color: #ebeffd;
+	height: 50px;
+	font-size: 12px;
+	line-height: 50px;
+	text-align: center;
+	background: #1c203a;
+}
+
+
+/*index*/
+.wrapper {
+	/*width: 1920px;*/
+	max-width: 1920px;
+	min-width: 1280px;
+	max-height: 1080px;
+	margin: 0 auto;
+	overflow: hidden;
+	font-family: "微软雅黑",arial;
+	background: #232a44 url(../../src/assets/bodybg.png) no-repeat right top;
+	background-size: cover;
+}
+
+.head {
+	height: 55px;
+	overflow: hidden;
+	line-height: 54px;
+	background: url(../../src/assets/indexTitle.jpg) no-repeat;
+}
+
+.user {
+	float: right;
+	font-size: 14px;
+	padding-right: 40px;
+}
+
+.user i {
+	float: right;
+	cursor: pointer;
+	font-size: 18px;
+	margin-left: 14px;
+}
+
+.userImg {
+	float: left;
+	width: 30px;
+	height: 30px;
+	overflow: hidden;
+	border-radius: 50%;
+	margin: 11px 12px 0 0;
+}
+
+.userImg img {
+	width: 100%;
+}
+
+.indexlogo {
+	font-size: 16px;
+	padding-left: 11px;
+}
+
+.indexlogo span {
+	float: left;
+	padding-right: 7px;
+	display: inline-block;
+}
+
+.indexlogo span img {
+	padding-top: 9px;
+	display: inline-block;
+
+}
+
+.main {
+	overflow: hidden;
+}
+
+
+
+.mRight {
+	float: left;
+	width: 90%;
+	/*width: 1739px;*/
+	overflow: hidden;
+	padding: 12px 0px 0px 12px;
+}
+
+.mrLeft {
+	float: left;
+	width: 43.2%;
+	/*width: 742px;*/
+}
+
+.tableBox {
+	width: 85.4%;
+	/*width: 616px;*/
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.tableTitle {
+	height: 18px;
+	line-height: 18px;
+	margin: 5.1% 0 3.25%;
+	border-left: 2px #57e17c solid;
+}
+
+.tableTitle li {
+	float: left;
+	font-size: 14px;
+	text-align: center;
+}
+
+.tableTitle li:nth-child(1),
+.table table td:nth-child(1) {
+	width: 26.2%;
+}
+
+.tableTitle li:nth-child(2),
+.table table td:nth-child(2) {
+	width: 32.5%;
+}
+
+.tableTitle li:nth-child(3),
+.table table td:nth-child(3) {
+	width: 24.5%;
+}
+
+.tableTitle li:nth-child(4),
+.table table td:nth-child(4) {
+	width: 16.2%;
+}
+
+.table {
+	height: 87.5%;
+	overflow: hidden;
+	margin-bottom: 6.5%;
+}
+
+.table table {
+	width: 100%;
+	border-right: 1px #4c567c solid;
+	border-bottom: 1px #4c567c solid;
+}
+
+.table table tr {
+	height: 32px;
+	line-height: 32px;
+}
+
+.table table td {
+	font-size: 12px;
+	text-align: center;
+	border-top: 1px #4c567c solid;
+	border-left: 1px #4c567c solid;
+}
+
+.mrLblock {
+	/*width: 718px;*/
+	width: 96.7%;
+	height: 47%;
+	margin: 12px;
+	overflow: hidden;
+	display: inline-block;
+}
+
+.boxShadow {
+	box-shadow: 0px 0px 26px #01060e;
+	background: linear-gradient(-18deg, #424e76, #273256);
+	background: -webkit-linear-gradient(-18deg, #424e76, #273256);
+	/* Safari 5.1 - 6.0 */
+	background: -o-linear-grad -ient(-18deg, #424e76, #273256);
+	/* Opera 11.1 - 12.0 */
+	background: -moz-linear-gradient(-18deg, #424e76, #273256);
+	/* Firefox 3.6 - 15 */
+}
+
+.mrCenter {
+	float: left;
+	width: 24%;
+	overflow: hidden;
+}
+
+.centerBox {
+	height: 94.5%;
+	margin: 12px;
+}
+
+.mrRight {
+	float: left;
+	/*width: 554px;*/
+	width: 32%;
+}
+
+.mrCblock {
+	height: 33%;
+}
+
+.mrRblock {
+	/*width: 718px;*/
+	width: 96.7%;
+	height: 47%;
+	margin: 12px;
+	overflow: hidden;
+	display: inline-block;
+}
+
+.main .mLeft .navMenu .MyOption {
+	color: #FFF;
+	background: #161d33;
+	border-left: 2px solid #57e29b;
+}
+
+.Showloading {
+	width: 85%;
+	height: 395px;
+	margin: 0 auto;
+}
+
+.Showcentre {
+	width: 90%;
+	height: 216px;
+	margin-top: 10%;
+}
+
+.Showmedia {
+	width: 90%;
+	height: 230px;
+	margin-top: 10%;
+}
+
+.Showspan {
+	position: absolute;
+	left: -14px;
+	display: inline-block;
+	width: 2px;
+	height: 100%;
+	background-color: #57e17c;
+}
+
+.mRightShowspan {
+	position: relative;
+	top: 7.3%;
+	left: 7%;
+	height: 18px;
+	margin-left: 20px;
+}
+
+.mRightShowspan2 {
+	height: 18px;
+	top: 10.5%;
+}
+
+.mRightShowspan h5 {
+	height: 100%;
+	line-height: 18px;
+	font-weight: normal;
+}
+
+#line,
+#hBar {
+	width: 90%;
+	margin: 0 auto;
+	height: 400px;
+}
+
+.mrLblock {
+	position: relative;
+}
+
+
+/*媒体查询*/
+
+@media screen and (max-width:1800px) {
+	.wraper {
+		max-width: 1126px;
+	}
+	.loginTitle {
+		height: 197px;
+		line-height: 174px;
+	}
+	.loginMain {
+		margin: 100px 60px 0 0;
+		padding: 40px 0px 70px;
+	}
+	.loginBg {
+		padding-top: 38px;
+	}
+	.verificationCode input {
+		height: 31px;
+		line-height: 31px;
+	}
+	.J_codeimg {
+		height: 31px;
+	}
+	.submit input {
+		height: 32px;
+		font-size: 14px;
+		line-height: 32px;
+	}
+	.inputBg {
+		padding: 7px 0px 7px 13px;
+	}
+	.code {
+		height: 31px;
+	}
+	.refresh {
+		height: 22px;
+	}
+	.errorInfo {
+		height: 30px;
+		font-size: 12px;
+		line-height: 30px;
+	}
+	.errorInfo span {
+		padding: 0px 7px;
+		line-height: 36px;
+	}
+	.Copyright {
+		height: 44px;
+		line-height: 44px;
+	}
+	.wrapper {
+		max-width: 1800px;
+	}
+	.navMenu>li>a {
+		font-size: 12px;
+	}
+	.navMenu>li>ul.sub-menu li>a {
+		font-size: 12px;
+	}
+}
+
+@media screen and (max-width:1620px) {
+	.wraper {
+		max-width: 875px;
+	}
+	.loginTitle {
+		height: 158px;
+		font-size: 18px;
+		text-indent: -31px;
+		line-height: 152px;
+	}
+	.loginMain {
+		margin: 82px 52px 0 0;
+		padding: 32px 0px 52px;
+	}
+	.loginBg {
+		padding-top: 35px;
+	}
+	.inputBg {
+		padding: 7px 0px 6px 13px;
+	}
+	.verificationCode input {
+		height: 30px;
+		line-height: 30px;
+	}
+	.code {
+		height: 31px;
+	}
+	.J_codeimg {
+		height: 30px;
+	}
+	.submit input {
+		height: 30px;
+		font-size: 14px;
+		line-height: 30px;
+	}
+	.refresh {
+		height: 22px;
+	}
+	.errorInfo {
+		height: 30px;
+		font-size: 12px;
+		line-height: 30px;
+	}
+	.errorInfo span {
+		padding: 0px 7px;
+		line-height: 34px;
+	}
+	.Copyright {
+		height: 40px;
+		line-height: 40px;
+	}
+	.wrapper {
+		max-width: 1620px;
+	}
+	.sub-menu li a span {
+		padding-left: 10px;
+	}
+	.mLeft {
+		width: 144px;
+	}
+	.mRight {
+		width: 87.5%;
+	}
+}
+
+@media screen and (max-width:1440px) {
+	.wraper {
+		max-width: 875px;
+	}
+	.loginTitle {
+		height: 158px;
+		line-height: 146px;
+	}
+	.loginMain {
+		margin: 74px 47px 0 0;
+		padding: 30px 0px 43px;
+	}
+	.loginBg {
+		padding-top: 32px;
+	}
+	.inputBg {
+		padding: 6px 0px 5px 9px;
+	}
+	.verificationCode input {
+		height: 28px;
+		line-height: 28px;
+	}
+	.code {
+		height: 28px;
+	}
+	.J_codeimg {
+		height: 28px;
+	}
+	.submit input {
+		height: 28px;
+		font-size: 14px;
+		line-height: 28px;
+	}
+	.refresh {
+		height: 21px;
+	}
+	.errorInfo {
+		height: 28px;
+		font-size: 12px;
+		line-height: 28px;
+	}
+	.errorInfo span {
+		padding: 0px 7px;
+		line-height: 34px;
+	}
+	.Copyright {
+		height: 38px;
+		line-height: 38px;
+	}
+	.wrapper {
+		max-width: 1440px;
+	}
+	.table table tr {
+	    height: 18px;
+	    line-height: 12px;
+	}
+	.mrLblock, .mrRblock {
+		height: 45%;
+	}
+	.centerBox {
+		height: 90.5%;
+	}
+	#hBar, #line {
+		width: 310px;
+		height: 290px;
+	}
+	#Bar {
+		height: 290px;
+	}
+	.mrbox {
+		width: 140px;
+		height: 140px;
+		margin-left: 65px;
+	}
+}
+
+@media screen and (max-width:1366px) {
+	.wrapper {
+		max-width: 1366px;
+	}
+	.table table tr {
+	    height: 19px;
+	    line-height: 9px;
+	}
+	#hBar, #line {
+		width: 310px;
+		height: 245px;
+	}
+	#Bar {
+		height: 255px;
+	}
+	.mrbox {
+		width: 130px;
+		height: 130px;
+		margin-left: 65px;
+	}
+}
+
+@media screen and (max-width:1281px) {
+	.wraper {
+		max-width: 800px;
+	}
+	.loginTitle {
+		height: 144px;
+		font-size: 16px;
+		text-indent: -30px;
+		line-height: 132px;
+	}
+	.loginMain {
+		margin: 68px 44px 0 0;
+		padding: 22px 0px 37px;
+	}
+	.loginBg {
+		padding-top: 30px;
+	}
+	.inputBg {
+		padding: 5px 0px 5px 9px;
+	}
+	.verificationCode input {
+		height: 27px;
+		line-height: 27px;
+		font-size: 12px;
+	}
+	.code {
+		margin-left: 20px;
+		height: 27px;
+	}
+	.J_codeimg {
+		height: 27px;
+		font-size: 12px;
+	}
+	.submit input {
+		height: 27px;
+		font-size: 14px;
+		line-height: 26px;
+	}
+	.refresh {
+		height: 20px;
+	}
+	.errorInfo {
+		height: 27px;
+		line-height: 27px;
+	}
+	.errorInfo span {
+		padding: 0px 7px;
+		line-height: 32px;
+	}
+	.Copyright {
+		height: 34px;
+		line-height: 34px;
+	}
+	.wrapper {
+		max-width: 1280px;
+	}
+	.mRight {
+		width: 86%;
+	}
+	.table table tr {
+	    height: 19px;
+	    line-height: 15px;
+	}
+	.mrLblock, .mrRblock {
+		height: 46%;
+	}
+	.centerBox {
+		height: 92.5%;
+	}
+	#hBar, #line {
+		width: 310px;
+		height: 370px;
+	}
+	#Bar {
+		height: 370px;
+	}
+	.mrbox {
+		width: 190px;
+		height: 190px;
+		margin-left: 26px;
+	}
+}
+@media screen and (max-width:1280px) and (max-height:800px) {
+	.wrapper {
+		max-width: 1280px;
+	}
+	.table table tr {
+	    height: 10px;
+	    line-height: 10px;
+	}
+	#hBar, #line {
+		width: 310px;
+		height: 265px;
+	}
+	#Bar {
+		height: 265px;
+	}
+	.mrbox {
+		width: 150px;
+		height: 150px;
+		margin-left: 36px;
+	}
+}
+@media screen and (max-width:1280px) and (max-height:720px) {
+	.wrapper {
+		max-width: 1280px;
+	}
+	.table table tr {
+	    height: 16px;
+	    line-height: 9px;
+	}
+	#hBar, #line {
+		width: 310px;
+		height: 240px;
+	}
+	#Bar {
+		height: 240px;
+	}
+	.mrbox {
+		width: 135px;
+		height: 135px;
+		margin-left: 36px;
+	}
+}
+
+input:-webkit-autofill {
+	-webkit-box-shadow: 0 0 0px 1000px white inset;
+
+	}
